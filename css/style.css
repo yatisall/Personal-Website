@@ -1,0 +1,309 @@
+/*Global characteristics applied*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, serif;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER*/
+/*Giving the header a background colour*/
+header{
+	background-color: #f4dac8;
+	height: 50px;
+	border-bottom: #e8b69e 4px solid;
+}
+
+.left-side ul{
+	margin-left: 20px;
+	margin-right: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+header .left-side ul li{
+	display: inline;
+	float: left;
+	padding: 10px 20px 0 0;
+}
+
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: : 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	color: black;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+nav ul li a{
+	color: black;
+}
+
+nav ul li a:hover{
+	color: black;
+}
+
+i{
+	color: black;
+}
+
+#projects-header{
+	margin-right: 50px;
+}
+
+.checkbtn{ /*Collapsing button*/
+	font-size: 25px;
+	color: #fff;
+	float: right;
+	line-height: 50px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check{ /*Remove check box*/
+	display: none;
+}
+
+/*HEADER*/
+
+/*CONTAINER - WELCOME*/
+.container{
+	margin: 0;
+	padding: 0;
+	margin-top: 70px;
+}
+
+#summary-col{
+	margin-top: 150px;
+	margin-left: 15px;
+}
+
+#intro{
+	margin: 20px;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+#learnmore-btn{
+	background-color: #f4dac8;
+	border: none;
+	border-radius:3px;
+	float: right;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#learnmore-btn:hover{
+	background-color: #e8b69e;
+}
+/*CONTAINER - WELCOME*/
+
+/*JUMBOTRON - QUOTE*/
+.jumbotron{
+	background: url("../img/fingers-note-report-journalist-filling.jpg") top center;
+	background-size: cover;
+	margin-top: 20px;
+	height: 450px;
+}
+
+.jumbotron .col-sm-6{
+	color: #fff;
+	margin-top: 50px;
+}
+/*JUMBOTRON - QUOTE*/
+
+/*CONTAINER - EDUCATION*/
+.row-edu{
+	margin-top: 120px;
+	background-color: #f4dac8;
+	/*background: url(../img/testing.jpg);*/
+	/*To insert an image*/
+}
+
+.edu-des{
+	font-size: 15px;
+	text-align: justify;
+  	text-justify: inter-word;
+  	background-color: #fff;
+  	padding: 50px 10px 10px 10px;
+  	margin-top: 20px;
+}
+
+.edu-date{
+	background-color: #fff;
+}
+
+.edu-img{
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 100%;/*To make the image responsive*/
+	height: auto;
+}
+
+#edu-img-2{
+	margin-top: 60px;
+}
+/*CONTAINER - EDUCATION*/
+
+/*CONTAINER - WORK EXPERIENCE*/
+.row-work img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#row-work-des{
+	text-align: justify;
+  	text-justify: inter-word;
+}
+/*CONTAINER - WORK EXPERIENCE*/
+
+/*CONTAINER - SKILLS*/
+.img-fluid{
+	padding: 20px;
+}
+
+.row-icon-des{
+	margin: 30px 0;
+}
+
+#skills-sig-des{
+	width: 100%;
+}
+
+.row-skill-des{
+	text-align: justify;
+  	text-justify: inter-word;
+}
+/*CONTAINER - SKILLS*/
+
+/*CONTAINER - VIDEO*/
+.row-video{
+	background-color: #f4dac8;
+}
+
+#col-video-left{
+	padding: 100px 20px;
+}
+
+iframe{
+	padding: 10px;
+}
+/*CONTAINER - VIDEO*/
+
+/*CONTAINER - CONTACT*/
+.row-contact h3{
+	margin-top:  100px;
+	border-bottom: #e8b69e 4px solid;
+}
+
+.row-contact p{
+	padding-top: 30px;
+	margin-bottom: 100px;
+}
+
+/*CONTAINER - CONTACT*/
+
+/*CONTAINER - MESSAGE*/
+.row-form-input{
+	background: url("../img/question-mark.jpg");
+	background-size: cover;
+}
+
+.message-form{
+	background-color: #dfc196;
+	padding: 30px;
+	width: 100%;
+}
+
+#send-para{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.message-form-content input{
+	width: 100%;
+}
+
+#submit-btn{
+	border: none;
+	border-radius:3px;
+	float: right;
+}
+
+#submit-btn:hover{
+	background-color: #917556;
+	color: #fff;
+}
+
+#question-col{
+	margin: 60px 10px 60px 10px;
+}
+/*CONTAINER - MESSAGE*/
+
+/*FOOTER*/
+footer{
+	background-color: #f4dac8;
+	height: 40px;
+}
+
+footer p{
+	text-align: center;
+	padding-top: 10px;
+}
+/*FOOTER*/
+@media (max-width: 600px){
+	#summary-col{
+		margin-top: 30px;
+	}
+
+	#profile{
+		margin-top: 30px;
+	}
+
+	.checkbtn{
+		display: block;
+	}
+
+	#right-side-col{
+		position: fixed;
+		width: 100%;
+		height: 40px;
+		background: #e8b69e;
+		top: 45px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	
+	nav #right-side-col li{
+		font-size: 15px;
+	}
+
+	nav #right-side-col li a{
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+
+	#check:checked ~ #right-side-col{
+		left: 0;
+	}
+}
+
+@media (max-width: 572px){
+	#edu-img-2{
+		display: none;
+	}
+}
